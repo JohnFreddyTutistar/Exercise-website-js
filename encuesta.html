@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta</title>
+    <link rel="stylesheet" href="css/style3.css" class="text/css">
+    <script src="js/jquery-3.5.0.js" class="text/javascript"></script>
+    <script src="js/codigo3.js" class="text/javascript"></script>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <a href="index.html">Inicio</a>
+                <h1>Encuesta</h1>
+            </td>
+        </tr>
+    </table>
+    <table id="listado">
+        <tr>
+            <td>
+                <div id="opciones">
+                    <h2>¿Cuál es tu Anime favorito?</h2><br>
+                    <input type="radio" name="gusto" value="dr" /> Dragon Ball Super <br>
+                    <input type="radio" name="gusto" value="na" /> Naruto <br>
+                    <input type="radio" name="gusto" value="de" /> Dead Note <br>
+                    <input type="radio" name="gusto" value="to" /> Tokio Ghoul <br>
+                    <input type="radio" name="gusto" value="op" /> One Piece <br>
+
+                    <input type="button" name="votar" value="Votar" id="btnVotar">
+                </div>
+                <div id="resultados">
+                    <h2>Estadísticas</h2>
+                    <table>
+                        <tr>
+                            <td>
+                                Dragon Ball Super
+                            </td>
+                            <td>
+                                <div  id="sec1"></div><h3 id="lad1"></h3>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Naruto
+                            </td>
+                            <td>
+                                <div  id="sec2"></div><h3 id="lad2"></h3>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Dead Note
+                            </td>
+                            <td>
+                                <div  id="sec3"></div><h3 id="lad3"></h3>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Tokio Ghoul
+                            </td>
+                            <td>
+                                <div id="sec4"></div><h3 id="lad4"></h3>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                One Piece
+                            </td>
+                            <td>
+                                <div id="sec5"></div><h3 id="lad5"></h3>
+                            </td>
+                        </tr>
+                    </table>
+                    <input type="button" name="volver" value="Volver" id="btnVolver">
+                    <h2 id="total"></h2>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <div id="bkg"></div>
+    <div id="msg"></div>
+</body>
+</html>

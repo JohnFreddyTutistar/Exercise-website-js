@@ -1,0 +1,62 @@
+body{
+    /*background: linear-gradient(-45deg, rgb(96, 28, 136), rgb(185, 53, 20), rgb(38, 65, 187));*/
+    font-variant: initial;
+    color: white;
+    background-size: 100%;
+    background-image: url(../img/img16.jpg);
+    background-size: 100%;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    width: 100%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px white;
+}
+#contenedor{
+    height: 400px;
+}
+img{
+    height: 25%;
+    width: 25%;
+    margin-left: 35%;
+    padding-top: 20px;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    width: 50%;
+    padding-left: 25%;
+}
+input[type="button"]{
+    width: 200px;
+    height: 60px;
+    background: linear-gradient(-45deg, rgb(96, 28, 136),rgb(22, 106, 131), rgb(38, 65, 187));
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 35%;
+    cursor: pointer;
+}
+#nota{
+    width: 65px;
+    height: 65px;
+    padding-top: 2%;
+}
+a{
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+table td li {
+    width: 33%;
+    float: left;
+    list-style: none;
+}

@@ -1,0 +1,109 @@
+body{
+    color: white;
+    background-image: url(../img/anime3.jpg);
+    background-size: 100%;
+}
+table{
+    background: linear-gradient(-45deg, rgb(112, 21, 21), rgb(2, 4, 5), rgb(98, 20, 20));
+    opacity: 0.9;
+    width: 50%;
+    border: solid 1px white;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    text-shadow: -3px -3px 4px white;
+}
+h2{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+h3{
+    font-size: 15px;
+}
+input{
+    margin-left: 70px;
+    margin-top: 15px;
+}
+
+a{
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+#btnVotar{
+    width: 150px;
+    height: 30px;
+}
+#btnVolver{
+    width: 150px;
+    height: 30px;
+}
+td{
+    border: solid 1px  white;
+    width: 300px;
+    height: 30px;
+    text-align: left;
+    font-size: 20px;
+}
+#sec1,#sec2,#sec3,#sec4,#sec5{
+    background-color: whitesmoke;
+    height: 20px;
+    display:inline-block;
+    margin: 3px;
+    margin-top: 5px;
+}
+#lad1,#lad2,#lad3,#lad4,#lad5{
+    width: 30px;
+    display:inline-block;
+    margin-top: 3px;
+}
+#resultados{
+    display: none;
+    text-align: center;
+}
+#close{
+    /*background: linear-gradient(-45deg, rgb(231, 172, 11), rgb(231, 208, 75));*/  
+    margin-top: -5px;
+}
+#msg,#bkg{
+    display: none;
+    position: absolute;
+    width: 600px;
+    height: 110px;
+    top: 50%;
+    left: 375px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-top: -5%;
+}
+#tex{
+    /*color: rgb(51, 51, 51);*/
+    color: white;
+    font-size: 20px;
+    margin-top: 25px;
+}
+.icono{
+    width: 75px;
+    height: 75px;
+    margin-right: 80%;
+    margin-top: -10%;
+}
+#bkg{
+    background: linear-gradient(-45deg, rgb(0, 0, 0), rgb(98, 23, 23), rgb(0, 0, 0));
+    /*background-color: rgb(23, 37, 77);*/
+    /*opacity: 0.8;*/
+    z-index: 0;
+}
+
+input[type="button"]{
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+    
+}

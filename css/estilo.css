@@ -1,0 +1,33 @@
+body{
+    background-image: url(../img/img14.jpg);
+    background-size: 100%;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: black;
+    font-size: 83px;
+    text-shadow: -5px -5px 2px white;
+}
+h2{
+    text-align: center;
+    text-shadow: -2px -2px 1px black;
+}
+table{
+    color: rgb(3, 3, 107);
+    width: 90%;
+    /*border: solid 5px;*/
+    margin: 0 auto;
+}
+#menu{
+    width: 50%;
+    /*border: solid 5px;*/
+    margin: 0 auto;
+    /*margin-top: 1%;*/
+    padding-top: 2%;
+}
+a{
+    margin: 0 auto;
+    color: white;
+    font-size: 25px;
+}
